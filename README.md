@@ -1,4 +1,4 @@
-# Saolacoin.com Paper Wallet
+# Saolacoin Paper Wallet
 
 The Saolacoin Paper Wallet Landing Page
 
