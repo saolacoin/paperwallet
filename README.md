@@ -1,10 +1,10 @@
 # Saolacoin.com Paper Wallet
 
-The Saolacoin.com Paper Wallet Landing Page
+The Saolacoin Paper Wallet Landing Page
 
 A client-side Saolacoin (SAOLA) wallet generator producing customizable paper wallets.
 
-The Saolacoin.com Paper Wallet is based on the open source [saolacoin.org repository.](https://github.com/saolacoin/saolacoin) Private Keys are generated client-side. For better security, download a local copy and run on an offline machine. 
+Private Keys are generated client-side. For better security, download a local copy and run on an offline machine. 
 
 The saolacoin.org software is available under The MIT License (MIT) Copyright (c) 2011-2013 saolacoin.org
 
