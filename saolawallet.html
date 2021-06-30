@@ -7264,14 +7264,14 @@ input[type=checkbox] { position: relative; z-index: 20; }
   					<span><label id="denomLabel">Custom SAOLA Amount?</label>
 							<select onchange="denomChange(this.value)" id="denomSelector" name="denomMenu">
 								<option value="any">Any amount</option>
-						    <option value=".05">0.05 SAOLA</option>
-						    <option value=".1">0.1 SAOLA</option>
-						    <option value=".25">0.25 SAOLA</option>						    
-						    <option value=".5">0.5 SAOLA</option>						    
-						    <option value=".75">0.75 SAOLA</option>
-						    <option value="1">1 SAOLA</option>
-						    <option value="5">5 SAOLA</option>
-						    <option value="10">10 SAOLA</option>
+						    <option value="100">100 SAOLA</option>
+						    <option value="1000">1000 SAOLA</option>
+						    <option value="10000">10.000 SAOLA</option>						    
+						    <option value="100000">100.000 SAOLA</option>						    
+						    <option value="500000">500.000 SAOLA</option>
+						    <option value="1000000">1.000.000 SAOLA</option>
+						    <option value="5000000">5.000.000 SAOLA</option>
+						    <option value="10000000">10.000.000 SAOLA</option>
   						</select>
   					</span>
 						<span><label id="paperlabeladdressestogenerate" for="paperlimit">Addresses to generate:</label> <input onchange="ninja.wallets.paperwallet.build(document.getElementById('paperlimit').value * 1, document.getElementById('paperlimitperpage').value * 1, !document.getElementById('paperart').checked, document.getElementById('paperpassphrase').value);" type="text" id="paperlimit" /></span>
@@ -10806,29 +10806,29 @@ ninja.wallets.paperwallet = {
 			case 'any':
 			  denomBCH = ''
 			  break;
-			case '.05':
-			  denomBCH = '0.05 SAOLA'
+			case '100':
+			  denomBCH = '100 SAOLA'
 			  break;
-			case '.1':
-			  denomBCH = '0.1 SAOLA'
+			case '1000':
+			  denomBCH = '1.000 SAOLA'
 			  break;
-			case '.25':
-			  denomBCH = '0.25 SAOLA'
+			case '10000':
+			  denomBCH = '10.000 SAOLA'
 			  break;
-			case '.5':
-			  denomBCH = '0.5 SAOLA'
+			case '100000':
+			  denomBCH = '100.000 SAOLA'
 			  break;
-			case '.75':
-			  denomBCH = '0.75 SAOLA'
+			case '500000':
+			  denomBCH = '500.000 SAOLA'
 			  break;
-			case '1':
-			  denomBCH = '1 SAOLA'
+			case '1000000':
+			  denomBCH = '1.000.000 SAOLA'
 			  break;
-			case '5':
-			  denomBCH = '5 SAOLA'
+			case '5000000':
+			  denomBCH = '5.000.000 SAOLA'
 			  break;
-			case '10':
-			  denomBCH = '10 SAOLA'
+			case '10000000':
+			  denomBCH = '10.000.000 SAOLA'
 			  break;
 			default:
 			  denomBCH = ''
