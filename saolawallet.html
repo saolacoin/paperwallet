@@ -7265,13 +7265,13 @@ input[type=checkbox] { position: relative; z-index: 20; }
 							<select onchange="denomChange(this.value)" id="denomSelector" name="denomMenu">
 								<option value="any">Any amount</option>
 						    <option value="100">100 SAOLA</option>
-						    <option value="1000">1000 SAOLA</option>
-						    <option value="10000">10.000 SAOLA</option>						    
-						    <option value="100000">100.000 SAOLA</option>						    
-						    <option value="500000">500.000 SAOLA</option>
-						    <option value="1000000">1.000.000 SAOLA</option>
-						    <option value="5000000">5.000.000 SAOLA</option>
-						    <option value="10000000">10.000.000 SAOLA</option>
+						    <option value="1.000">1000 SAOLA</option>
+						    <option value="10.000">10.000 SAOLA</option>						    
+						    <option value="100.000">100.000 SAOLA</option>						    
+						    <option value="500.000">500.000 SAOLA</option>
+						    <option value="1.000.000">1.000.000 SAOLA</option>
+						    <option value="5.000.000">5.000.000 SAOLA</option>
+						    <option value="10.000.000">10.000.000 SAOLA</option>
   						</select>
   					</span>
 						<span><label id="paperlabeladdressestogenerate" for="paperlimit">Addresses to generate:</label> <input onchange="ninja.wallets.paperwallet.build(document.getElementById('paperlimit').value * 1, document.getElementById('paperlimitperpage').value * 1, !document.getElementById('paperart').checked, document.getElementById('paperpassphrase').value);" type="text" id="paperlimit" /></span>
@@ -10810,25 +10810,25 @@ ninja.wallets.paperwallet = {
 			case '100':
 			  denomBCH = '100 SAOLA'
 			  break;
-			case '1000':
+			case '1.000':
 			  denomBCH = '1.000 SAOLA'
 			  break;
-			case '10000':
+			case '10.000':
 			  denomBCH = '10.000 SAOLA'
 			  break;
-			case '100000':
+			case '100.000':
 			  denomBCH = '100.000 SAOLA'
 			  break;
-			case '500000':
+			case '500.000':
 			  denomBCH = '500.000 SAOLA'
 			  break;
-			case '1000000':
+			case '1.000.000':
 			  denomBCH = '1.000.000 SAOLA'
 			  break;
-			case '5000000':
+			case '5.000.000':
 			  denomBCH = '5.000.000 SAOLA'
 			  break;
-			case '10000000':
+			case '10.000.000':
 			  denomBCH = '10.000.000 SAOLA'
 			  break;
 			default:
