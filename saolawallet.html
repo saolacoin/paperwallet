@@ -7176,7 +7176,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
 								Saolacoin.com
 							</div>
 							<div class="style-example">
-								<img src="img/2019-paper-wallet-dark-blue.png">
+								<img src="img/saolacoin0.png">
 							</div>
 						</div>
 						<div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-right">
@@ -7184,23 +7184,25 @@ input[type=checkbox] { position: relative; z-index: 20; }
 								Select and Continue
 							</div>
 							<div class="style-label">
-							Light
+							Version - 1
+						        </div>
+						        <div class="style-example">
+							    <img src="img/saolacoin1.png">
+						        </div>
 						</div>
-						<div class="style-example">
-							<img src="img/2019-paper-wallet-light.png">
-						</div>
-						</div>
-					</div>										
+					</div>	
+
+
 					<div class="style-row">
 						<div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-left">
 							<div onclick="designConfirmed(this)" data-wallet-skin="nostep" class="confirm-design">
 								Select and Continue
 							</div>
 							<div class="style-label">
-							<em><font style="font-weight:bold;">Contest Winner</font></em> - Gadsden 
+							<em><font style="font-weight:bold;">Version</font></em> - 3 
 							</div>
 							<div class="style-example">
-								<img src="img/2019-paper-wallet-tread.png">
+								<img src="img/saolacoin3.png">
 							</div>
 						</div>
 						<div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-right">
@@ -7208,23 +7210,51 @@ input[type=checkbox] { position: relative; z-index: 20; }
 								Select and Continue
 							</div>
 							<div class="style-label">
-							<em><font style="font-weight:bold;">Contest Winner</font></em> - "Satoshi" 
+							<em><font style="font-weight:bold;">Version</font></em> - 2 
 							</div>
 							<div class="style-example">
-								<img src="img/2019-paper-wallet-satoshi.png">
+								<img src="img/saolacoin2.png">
 							</div>
 						</div>
 					</div>
+
+
+					<div class="style-row">
+						<div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-left">
+							<div onclick="designConfirmed(this)" data-wallet-skin="saolacoin5" class="confirm-design">
+								Select and Continue
+							</div>
+							<div class="style-label">
+							<em><font style="font-weight:bold;">Version</font></em> - 5 
+							</div>
+							<div class="style-example">
+								<img src="img/saolacoin5.png">
+							</div>
+						</div>
+						<div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-right">
+							<div onclick="designConfirmed(this)" data-wallet-skin="saolacoin6" class="confirm-design confirm-design-white">
+								Select and Continue
+							</div>
+							<div class="style-label">
+							<em><font style="font-weight:bold;">Version</font></em> - 6 
+							</div>
+							<div class="style-example">
+								<img src="img/saolacoin6.png">
+							</div>
+						</div>
+					</div>
+
+
 					<div class="style-row">
 						<div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-left">
 							<div onclick="designConfirmed(this)" data-wallet-skin="vietnam" class="confirm-design">
 								Select and Continue
 							</div>
 							<div class="style-label">
-							<em><font style="font-weight:bold;">Contest Winner</font></em> - Vietnam 
+							<em><font style="font-weight:bold;">Version</font></em> - 4 
 							</div>
 							<div class="style-example">
-								<img src="img/2019-paper-wallet-vietnam.png">
+								<img src="img/saolacoin4.png">
 							</div>
 						</div>
             <div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-right">
@@ -7259,6 +7289,8 @@ input[type=checkbox] { position: relative; z-index: 20; }
 						    <option value="nostep">No Step</option>
 						    <option value="dorian">"Satoshi"</option>
 						    <option value="vietnam">Vietnam</option>
+						    <option value="saolacoin5">Saolacoin - 5</option>
+						    <option value="saolacoin6">Saolacoin - 6'</option>
   						</select>
   					</span>
   					<span><label id="denomLabel">Custom SAOLA Amount?</label>
@@ -10722,7 +10754,7 @@ ninja.wallets.paperwallet = {
 
     case 'default':
       //file resource version: 
-      image = 'img/2019-paper-wallet-dark-blue.png';
+      image = 'img/saolacoin0.png';
       addressColor='#111724;'
       lockArtBgColor='#fff;'  
       //base64 encoded version:
@@ -10730,10 +10762,10 @@ ninja.wallets.paperwallet = {
 
     case 'inksaver':
       //file resource version
-      image = 'img/2019-paper-wallet-light.png'
+      image = 'img/saolacoin1.png'
       //base64 encoded version:
       // Font color of cash address to black for b&w version
-      addressColor='#111724;'
+      addressColor='#cc0000;'
       lockArtColor='#0fcb97;'
       lockArtBgColor='#fff;'  
       break;
@@ -10769,16 +10801,16 @@ ninja.wallets.paperwallet = {
 
     case 'nostep':
       //file resource version
-      image = 'img/2019-paper-wallet-tread.png';
+      image = 'img/saolacoin3.png';
       // Font color of cash address to gadsden
-      //addressColor='#f9009e;'
-      lockArtColor='#fff;'
-      //lockArtBgColor='#f9009e;' 
+      addressColor='#ff3300;'
+      lockArtColor='#ff3300;'
+      lockArtBgColor='#ff3300;' 
       break;
 
     case 'dorian':
       //file resource version
-      image = 'img/2019-paper-wallet-satoshi.png';
+      image = 'img/saolacoin2.png';
       // Font color of cash address to gadsden
       //addressColor='#f9009e;'
       lockArtColor='#fff;'
@@ -10787,7 +10819,25 @@ ninja.wallets.paperwallet = {
 
     case 'vietnam':
       //file resource version
-      image = 'img/2019-paper-wallet-vietnam.png';
+      image = 'img/saolacoin4.png';
+      // Font color of cash address to gadsden
+      addressColor='#fff;'
+      lockArtColor='#fff;'
+      lockArtBgColor='#5fa368;' 
+      break;
+
+    case 'saolacoin5':
+      //file resource version
+      image = 'img/saolacoin5.png';
+      // Font color of cash address to gadsden
+      addressColor='#fff;'
+      lockArtColor='#fff;'
+      lockArtBgColor='#5fa368;' 
+      break;
+
+    case 'saolacoin6':
+      //file resource version
+      image = 'img/saolacoin6.png';
       // Font color of cash address to gadsden
       addressColor='#fff;'
       lockArtColor='#fff;'
@@ -10796,7 +10846,7 @@ ninja.wallets.paperwallet = {
 
     default: 
 	    //file resource version:
-	    image = '2019-paper-wallet-dark-blue.png'
+	    image = 'saolacoin0.png'
 	    // Base64 encoded version: 
     }
 
